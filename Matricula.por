@@ -5,8 +5,9 @@ programa
 	{    cadeia nome
 	     cadeia curso
 	     cadeia data,de,nascimento
-	     inteiro menor, idade
-	     escreva("Bem vindo ao gerenciamento de matricula \n") 
+	     inteiro menor,idade
+	     
+             escreva("Bem vindo ao gerenciamento de matricula \n") 
 	     
 	     escreva("digite seu nome")
 	     leia (nome)
