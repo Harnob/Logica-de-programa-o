@@ -2,20 +2,20 @@ programa
 {
 	
 	funcao inicio()
-	{	cadeia nome
-		cadeia curso
-		cadeia data,de,nascimento
-		inteiro menor, idade
-		escreva("Bem vindo ao gerenciamento de matricula \n") 
+	{    cadeia nome
+	     cadeia curso
+	     cadeia data,de,nascimento
+	     inteiro menor, idade
+	     escreva("Bem vindo ao gerenciamento de matricula \n") 
 	     
 	     escreva("digite seu nome")
 	     leia (nome)
 	    
 	     escreva("digite sua data de nascimento:")
-          leia (data,de,nascimento)
+             leia (data,de,nascimento)
           
-          escreva("Informe sua idade:")
-		leia(idade)
+             escreva("Informe sua idade:")
+             leia(idade)
 
 	     se (idade < 18) 
 	     { 
@@ -25,15 +25,15 @@ programa
 
 	     senao
 	     {
-	     	escreva("Você é maior de idade")
+	     escreva("Você é maior de idade")
 	     }
 
 	     escreva("\n")
 	     
 	     escreva("digite o curso desejado")
-          leia (curso)
+             leia (curso)
 
-          escreva("matricula finalizada")
+             escreva("matricula finalizada")
 	
 	}
 
