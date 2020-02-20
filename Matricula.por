@@ -4,8 +4,8 @@ programa
 	funcao inicio()
 	{    cadeia nome
 	     cadeia curso
-	     cadeia data,de,nascimento
-	     inteiro menor,idade
+	     cadeia data_de_nascimento
+	     inteiro menor_idade
 	     
              escreva("Bem vindo ao gerenciamento de matricula \n") 
 	     
