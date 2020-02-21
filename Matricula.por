@@ -20,23 +20,22 @@ programa
 
 	     se (idade < 18) 
 	     { 
-	     escreva("Você é menor de idade")
-	     	
+	     escreva ("Você é menor de idade")	
 	     }
 
 	     senao
 	     {
-	     escreva("Você é maior de idade")
+	     escreva ("Você é maior de idade")
 	     }
-
-	     escreva("\n")
+	     
+             escreva("\n")
 	     
 	     escreva("digite o curso desejado")
              leia (curso)
 
              escreva("matricula finalizada")
 	
-	}
+	     }
 
 
 
