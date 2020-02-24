@@ -47,7 +47,7 @@ programa
                                      
              }
            
-             escreva("\n")
+                escreva("\n")
              
      
     }
