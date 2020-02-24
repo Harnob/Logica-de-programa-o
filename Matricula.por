@@ -11,7 +11,7 @@ programa
 		 
 	        escreva("Bem vindo ao sistema de matrícula \n")
 	        escreva("Digite o seu nome completo:")                                                                                                                                
-             leia(nome)
+                leia(nome)
 	     
 	        escreva("Digite o dia do seu nascimento:")
 	        leia(diaNascimento)
@@ -20,18 +20,18 @@ programa
 	        leia(mesNascimento)
 
 	        escreva("Digite seu ano de nascimento:")
-             leia(anoNascimento)
+                leia(anoNascimento)
 
-             escreva("1) Mecanica \n")
-             escreva("2) Eletrica \n")
-             escreva("3) Administrativo \n")
+                escreva("1) Mecanica \n")
+                escreva("2) Eletrica \n")
+                escreva("3) Administrativo \n")
 
-             escreva("Escolha uma das opcoes")
-             leia(opcao)
+                escreva("Escolha uma das opcoes")
+                leia(opcao)
 
-             limpa()
+                limpa()
              
-             escolha (opcao)
+                escolha (opcao)
              {
                  caso 1:
                       escreva ("Você selecionou Mecanica.")
@@ -47,7 +47,7 @@ programa
                                      
              }
            
-              escreva("\n")
+                 escreva("\n")
              
      
     }
