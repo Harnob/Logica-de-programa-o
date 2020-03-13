@@ -1,4 +1,14 @@
-<form action="index.php" method="post">
+<html>
+  <head>
+   <title>Formulário</title>
+   <link rel="stylesheet" type="text/css" href="Formulario.css"> 
+
+  </head>
+ <body>
+   <div id="area">
+    <fieldset> 
+     <legend>Formulário</legend>
+     <form id="Formulário" action="index.php" method="post">
      <label>complete_name: </label>
      <input type="text" name="complete_name"/><br>
      <label>birthdate: </label>
@@ -10,11 +20,13 @@
        <option value="electric">electric</option>
        </select>
      <input type=submit value="OK">
-</form>
+   </fieldset>
+  </div>
+</body>
 <?php
-     echo "complete_name" . $_POST["complete_name"];
-     echo "<br>birthdate" . $_POST["birthdate"];
-     echo "<br>course" . $_POST["course"];
+     echo "complete_name:" . $_POST["complete_name"];
+     echo "<br>birthdate:" . $_POST["birthdate"];
+     echo "<br>course:" . $_POST["course"];
 ?>
 
 
